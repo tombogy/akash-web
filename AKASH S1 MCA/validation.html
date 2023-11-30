@@ -1,0 +1,50 @@
+<HTML>
+<style>
+h1 { color:black;
+background: ;}
+</style>
+  
+  
+<body ALIGN ="CENTER" bgcolor="LIGHTGRAY">
+
+<br>
+
+
+<h1> STUDENT VALIDATION  </h1>
+<center>
+<form name="form1" onsubmit="validateform()">
+
+<h2> STUDENT LOG-IN  </h2>
+
+
+<h3><label> STUDENT NAME </label><input type="text" name="name">
+<h3><label> STUDENT MOB.NO </label>&nbsp&nbsp&nbsp&nbsp&nbsp<input type=" number "></h3>
+<h3><label> E - MAIL </label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type=" email "></h2>
+<h3><label> PASSWORD </label>&nbsp&nbsp&nbsp&nbsp&nbsp<input type="password"></h3>
+<BR>
+ <input type="SUBMIT">&nbsp&nbsp&nbsp&nbsp&nbsp<input type="reset" value="clear"></h3>
+
+<br>
+</form>
+
+<br>
+</center>
+
+<script type="text/javascript">
+function validateform()
+{
+var name =document.form1.name.value;
+//var password=document.form1.password.value;
+ if (name==""||name==null)
+ {
+ alert("the name is empty");
+ }
+ //if (password.length<=7){
+//  alert(" the password is shorter then 8 characters ");
+ // }
+  
+  }
+  
+</script>
+</body>
+</html>

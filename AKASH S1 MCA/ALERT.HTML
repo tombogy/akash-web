@@ -1,0 +1,45 @@
+<html>
+<body align="center">
+<p>.............................................................</P>
+<br>
+<style>
+#ak {
+     width : 200px;
+     height : 200px;
+	 background-color: orange;}
+</style>
+
+
+
+<br>
+<p><h2> lets CHANGE THE COLOR</h2> </P>
+<button onclick="clrfun()"> click me </button>
+<br>
+<center>
+<div id="ak"> <h2>wowwww</h2></div>
+</center>
+<script>
+function clrfun(){
+if(document.getElementById("ak").style.backgroundColor == 'orange'){       
+        
+         document.getElementById("ak").style.backgroundColor = 'yellow';
+    }
+    else if( document.getElementById("ak").style.backgroundColor == 'yellow'){
+       
+         document.getElementById("ak").style.backgroundColor = 'purple';
+    }
+    else if( document.getElementById("ak").style.backgroundColor == 'purple'){
+       
+       document.getElementById("ak").style.backgroundColor = 'green';
+  }
+  else if( document.getElementById("ak").style.backgroundColor == 'green'){
+       
+       document.getElementById("main_bg").style.backgroundColor = 'brown';
+  }
+    else( document.getElementById("ak").style.backgroundColor = 'orange')
+}
+</script>
+
+
+</body>
+</html>
